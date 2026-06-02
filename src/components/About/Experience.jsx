@@ -9,7 +9,25 @@ function Experience() {
       </h1>
 
         <Col md={8}>
-        <Card style={{ backgroundColor: "#aa64e7ff", color: "white" }}>
+        <Card style={{ backgroundColor: "#2D1450", color: "white" }}>
+            <Card.Body>
+            <Card.Title>
+                <strong>Full Stack Developer Intern</strong>
+            </Card.Title>
+            <Card.Subtitle className="mb-4" style={{ color: "white", opacity: 0.9 }}>
+                Avadhan Softtech | November 2025 – April 2026
+            </Card.Subtitle>
+            <Card.Text>
+                <p>
+                    Developed responsive web applications by contributing to both frontend and backend development. Built user-friendly interfaces, implemented backend logic using Core Java and Python, integrated APIs, and ensured cross-browser compatibility. Collaborated in an agile environment to deliver scalable, high-performance solutions while maintaining clean, efficient, and maintainable code.
+                </p>
+            </Card.Text>
+            </Card.Body>
+        </Card>
+        </Col>
+
+        <Col md={8} style={{ marginTop: "15px" }}>
+        <Card style={{ backgroundColor: "#2D1450", color: "white" }}>
             <Card.Body>
             <Card.Title>
                 <strong>Full Stack Developer Intern</strong>
@@ -27,7 +45,7 @@ function Experience() {
         </Col>
 
         <Col md={8} style={{ marginTop: "15px" }}>
-        <Card style={{ backgroundColor: "#aa64e7ff", color: "white" }}>
+        <Card style={{ backgroundColor: "#2D1450", color: "white" }}>
             <Card.Body>
             <Card.Title>
                 <strong>Python Developer Intern</strong>
