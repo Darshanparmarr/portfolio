@@ -8,6 +8,7 @@ import binarypowerlaptop from "../../Assets/Projects/binarypowerlaptop.png";
 import PQLaptop from "../../Assets/Projects/PQLaptop.png";
 import AksharFruitsLaptop from "../../Assets/Projects/AksharFruitsLaptop.png";
 import AksharConnectLaptop from "../../Assets/Projects/AksharConnectLaptop.png";
+import researchpaper1 from "../../Assets/Projects/researchpaper1.png";
 
 function Projects() {
   return (
@@ -82,6 +83,27 @@ function Projects() {
           </Col>
 
         </Row>
+
+        <h1 className="project-heading">
+          My Recent <strong className="purple"> Research Paper </strong>
+        </h1>
+        <p style={{ color: "white" }}>
+          Here are some of my recent research contributions and publications.
+        </p>
+
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+          <ProjectCard
+            imgPath={researchpaper1}
+            isBlog={false}
+            title="Analyzing Travel Blog and Vlog Content Trends to Predict Future Tourism Destinations"
+              description="Published research paper in IJAIR (Volume 13, Issue 1, 2026) exploring how AI and Natural Language Processing can predict emerging tourism destinations using YouTube travel vlog metadata. The study leverages Named Entity Recognition (NER), sentiment analysis, and destination classification to identify travel trends, uncover traveler preferences, and forecast future tourism hotspots from user-generated content. Read the full paper (Page Number 228 – 235) 👇"
+            ghLink="https://iaraedu.com/about-journal/ijair-volume-13-issue-1-v-january-march-2026.php"
+          />
+        </Col>
+        </Row>
+
+
       </Container>
     </Container>
   );
